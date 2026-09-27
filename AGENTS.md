@@ -205,8 +205,9 @@ containers:
   Keycloakify `update-kc-gen` command
 - Prefer the existing `components/ui` (shadcn/ui) primitives over introducing
   new UI libraries
-- Dependency updates: `renovate.json` was removed in favor of Dependabot, and
-  `automerge.yml` is set up to auto-approve/auto-merge Dependabot PRs — but
-  no `.github/dependabot.yml` exists yet, so Dependabot isn't
-  actually opening PRs here yet. Add that config before relying on
-  `automerge.yml` to do anything.
+- Dependency updates: `renovate.json` extends the shared `cloudpunks/.github`
+  preset via the Renovate GitHub App, with a repo-local `minimumReleaseAge`
+  override (avoids proposing a version before Renovate's own package mirror
+  has caught up with a very recent publish). `automerge.yml` is also set up
+  to auto-approve/auto-merge Dependabot PRs, but no `.github/dependabot.yml`
+  exists yet, so Dependabot isn't actually opening PRs here — only Renovate is.
