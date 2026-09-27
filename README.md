@@ -1,6 +1,6 @@
 # Keycloak Theme
 
-[![General Workflow](https://github.com/cloudpunks/keycloak-theme/actions/workflows/general.yml/badge.svg)](https://github.com/cloudpunks/keycloak-theme/actions/workflows/general.yml) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/3322632d759b44d398633123e082e223)](https://app.codacy.com/gh/cloudpunks/keycloak-theme/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade) [![GitHub Repo](https://img.shields.io/badge/github-repo-yellowgreen)](https://github.com/cloudpunks/keycloak-theme)
+[![General Workflow](https://github.com/cloudpunks/keycloak-theme/actions/workflows/general.yml/badge.svg)](https://github.com/cloudpunks/keycloak-theme/actions/workflows/general.yml) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/65db65a2e86142a08562c234f83f908e)](https://app.codacy.com/gh/cloudpunks/keycloak-theme/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade) [![GitHub Repo](https://img.shields.io/badge/github-repo-yellowgreen)](https://github.com/cloudpunks/keycloak-theme)
 
 This repository defines our customized Keycloak themes used by our auth service
 which is based on [Keycloak][keycloak].
