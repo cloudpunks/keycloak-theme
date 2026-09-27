@@ -51,7 +51,7 @@ rulesets:
           required_status_checks:
             - context: testing
               integration_id: 15368
-            - context: docker
+            - context: storybook
               integration_id: 15368
     bypass_actors:
       - actor_id: 1
