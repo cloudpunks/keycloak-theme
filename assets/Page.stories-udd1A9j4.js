@@ -1,0 +1,1 @@
+import{n as e}from"./rolldown-runtime-DkW27tQK.js";import{n as t,t as n}from"./KcPageStory-B7zDJoyE.js";var r,i,a,o;function s(){return(s=e((()=>{t(),{KcPageStory:r}=n({pageId:`login-idp-link-confirm-override.ftl`}),i={title:`login/login-idp-link-confirm-override.ftl`,component:r},a={},o=[`Default`]})))()}s();export{a as Default,o as __namedExportsOrder,i as default};
