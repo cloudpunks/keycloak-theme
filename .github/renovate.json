@@ -3,5 +3,7 @@
     "extends": [
         "github>cloudpunks/.github//renovate/preset"
     ],
-    "minimumReleaseAge": "3 days"
+    "minimumReleaseAge": "3 days",
+    "npmrc": "allow-remote=all",
+    "npmrcMerge": true
 }

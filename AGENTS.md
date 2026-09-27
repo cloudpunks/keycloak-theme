@@ -205,9 +205,14 @@ containers:
   Keycloakify `update-kc-gen` command
 - Prefer the existing `components/ui` (shadcn/ui) primitives over introducing
   new UI libraries
-- Dependency updates: `renovate.json` extends the shared `cloudpunks/.github`
-  preset via the Renovate GitHub App, with a repo-local `minimumReleaseAge`
-  override (avoids proposing a version before Renovate's own package mirror
-  has caught up with a very recent publish). `automerge.yml` is also set up
-  to auto-approve/auto-merge Dependabot PRs, but no `.github/dependabot.yml`
-  exists yet, so Dependabot isn't actually opening PRs here — only Renovate is.
+- Dependency updates: `.github/renovate.json` extends the shared
+  `cloudpunks/.github` preset via the Renovate GitHub App. It also sets
+  `npmrc: "allow-remote=all"` (with `npmrcMerge: true`) — npm 12 defaults
+  `allow-remote` to `none`, which blocks the `bundleDependencies` tarball
+  fetches Tailwind's `@tailwindcss/oxide` optional native packages need
+  during lockfile regeneration, breaking every Renovate PR that touches
+  `package-lock.json`. This override is scoped to Renovate's own
+  lockfile-update sandbox only, not real `npm ci` runs. `automerge.yml` is
+  also set up to auto-approve/auto-merge Dependabot PRs, but no
+  `.github/dependabot.yml` exists yet, so Dependabot isn't actually opening
+  PRs here — only Renovate is.
