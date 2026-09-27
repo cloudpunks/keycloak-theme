@@ -1,0 +1,64 @@
+---
+# yaml-language-server: $schema=https://www.schemastore.org/github-workflow.json
+name: image
+
+"on":
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+    tags:
+      - v*
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+  packages: write
+
+jobs:
+  image:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v7
+
+      - name: Install tools
+        uses: jdx/mise-action@v4
+
+      - name: Install deps
+        run: npm ci
+
+      - name: Build theme
+        run: npm run build-keycloak
+
+      - name: Rename file
+        run: |
+          mv \
+            dist_keycloak/keycloak-theme-for-kc-26.2-and-above.jar \
+            dist_keycloak/keycloak-theme.jar
+
+      - name: Compute version
+        id: version
+        run: |
+          if [ "${GITHUB_REF_TYPE}" = "tag" ]; then
+            echo "value=${GITHUB_REF_NAME#v}" >> "$GITHUB_OUTPUT"
+          else
+            echo "value=latest" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Push artifact
+        uses: 1k-off/action-oras-push@v1
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+          repository: cloudpunks/keycloak-theme
+          tag: ${{ steps.version.outputs.value }}
+          files: |
+            dist_keycloak/keycloak-theme.jar
+
+...
