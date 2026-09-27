@@ -39,7 +39,7 @@ jobs:
         run: |
           mv \
             dist_keycloak/keycloak-theme-for-kc-26.2-and-above.jar \
-            dist_keycloak/keycloak-theme.jar
+            keycloak-theme.jar
 
       - name: Compute version
         id: version
@@ -59,6 +59,6 @@ jobs:
           repository: cloudpunks/keycloak-theme
           tag: ${{ steps.version.outputs.value }}
           files: |
-            dist_keycloak/keycloak-theme.jar
+            keycloak-theme.jar
 
 ...
