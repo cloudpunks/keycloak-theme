@@ -58,6 +58,7 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
           repository: cloudpunks/keycloak-theme
           tag: ${{ steps.version.outputs.value }}
+          keep-root-dir: true
           files: |
             keycloak-theme.jar
 
