@@ -48,7 +48,7 @@ public/
   keycloak-theme/           # Static assets copied into the built theme
   keycloakify-dev-resources/
 .storybook/                 # Storybook config for previewing login/account pages and components
-mise.toml                   # Tool versions (node, java, maven, prek, betterleaks)
+mise.toml                   # Tool versions (node, java, maven, oras, prek, betterleaks)
 .pre-commit-config.yaml     # Hooks run by prek (commitlint on commit-msg, betterleaks secret scan on pre-commit)
 commitlint.config.cjs       # Conventional Commits types, incl. extra major/minor/patch/deps types
   #                           consumed by semantic-release's commit-analyzer (see .releaserc)
@@ -77,8 +77,8 @@ Tool versions are pinned in `mise.toml`:
 
 - **Node.js** — build and test runtime
 - **Java / Maven** — needed by `keycloakify build`'s internal `mvn` invocation
-- **oras** — used for manual/local OCI pushes (`scripts/push-oci-artifact`); CI itself uses
-  the `1k-off/action-oras-push` GitHub Action instead, so it doesn't need `oras` on the runner
+- **oras** — available for manual/local OCI pushes; CI itself pushes via the
+  `1k-off/action-oras-push` GitHub Action, so it doesn't need `oras` on the runner
 - **prek** — Git hook runner (Rust reimplementation of pre-commit), driven by
   `.pre-commit-config.yaml`
 - **betterleaks** — secret-leak scanner, run as a pre-commit hook
@@ -152,8 +152,7 @@ plumbing needed.
   `keycloak-theme.jar`, computes a tag (`latest` on `master`, or the tag name
   with its leading `v` stripped on a version tag), and pushes it as an OCI
   artifact to `ghcr.io/cloudpunks/keycloak-theme` via the
-  `1k-off/action-oras-push` action (`scripts/push-oci-artifact` is kept only
-  for manual/local pushes — see Deploying the theme below).
+  `1k-off/action-oras-push` action.
 - **`storybook.yml`** (job `storybook`) — on push/PR to `master`: builds
   Storybook and deploys it to GitHub Pages.
 - **`release.yml`** (job `release`) — scheduled weekly (Mondays, 08:00 UTC)
@@ -188,10 +187,6 @@ containers:
         mountPath: /opt/keycloak/providers
         readOnly: true
 ```
-
-`scripts/push-oci-artifact <registry>/<repo>:<tag>` still works for a manual
-local push (after `npm run build-keycloak` and `oras login`) but is no longer
-part of the automated pipeline.
 
 ## Conventions
 
