@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.2.0](https://github.com/cloudpunks/keycloak-theme/compare/v1.1.0...v1.2.0) (2026-09-28)
+
+### Features
+
+* define a proper name for theme selector ([e4f7224](https://github.com/cloudpunks/keycloak-theme/commit/e4f72240c8e87c57c965bd994aa866882a057e3a))
+
 ## [1.1.0](https://github.com/cloudpunks/keycloak-theme/compare/v1.0.1...v1.1.0) (2026-09-28)
 
 ### Features
