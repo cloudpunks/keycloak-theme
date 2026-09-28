@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.1](https://github.com/cloudpunks/keycloak-theme/compare/v1.0.0...v1.0.1) (2026-09-28)
+
+### Bugfixes
+
+* requires more complicated build script ([442cdf2](https://github.com/cloudpunks/keycloak-theme/commit/442cdf2c5f8ed571643d57073451a31e6d8978df))
+
 ## 1.0.0 (2026-09-27)
 
 ### Features
