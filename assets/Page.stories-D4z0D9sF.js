@@ -1,1 +1,0 @@
-import{n as e}from"./rolldown-runtime-DkW27tQK.js";import{n as t,t as n}from"./KcPageStory-BK2i2w8n.js";var r,i,a,o;function s(){return(s=e((()=>{t(),{KcPageStory:r}=n({pageId:`login-recovery-authn-code-input.ftl`}),i={title:`login/login-recovery-authn-code-input.ftl`,component:r},a={},o=[`Default`]})))()}s();export{a as Default,o as __namedExportsOrder,i as default};
