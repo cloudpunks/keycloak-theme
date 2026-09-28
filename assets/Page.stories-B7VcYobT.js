@@ -1,0 +1,1 @@
+import{n as e}from"./rolldown-runtime-DkW27tQK.js";import{n as t,t as n}from"./KcPageStory-gN8-sK6k.js";var r,i,a,o;function s(){return(s=e((()=>{t(),{KcPageStory:r}=n({pageId:`saml-post-form.ftl`}),i={title:`login/saml-post-form.ftl`,component:r},a={},o=[`Default`]})))()}s();export{a as Default,o as __namedExportsOrder,i as default};
