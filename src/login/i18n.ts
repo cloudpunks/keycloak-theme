@@ -13,7 +13,7 @@ const { I18nProvider, useI18n } = i18nBuilder
     .withThemeName<ThemeName>()
     .withCustomTranslations({
         en: {
-            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks",
+            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks GmbH",
             welcomeMessage:
                 "Welcome to Acme inc - Your gateway to seamless planning and organization.",
             loginAccountTitle: "Login to your account",
@@ -32,7 +32,7 @@ const { I18nProvider, useI18n } = i18nBuilder
             confirmPasswordPlaceholder: "Confirm your password"
         },
         ar: {
-            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks",
+            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks GmbH",
             welcomeMessage: "مرحبًا بك في Acme inc - بوابتك إلى التخطيط والتنظيم السلس.",
             loginAccountTitle: "تسجيل الدخول إلى حسابك",
             registerTitle: "تسجيل حساب جديد",
@@ -50,7 +50,7 @@ const { I18nProvider, useI18n } = i18nBuilder
             confirmPasswordPlaceholder: "أكد كلمة المرور"
         },
         ca: {
-            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks",
+            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks GmbH",
             welcomeMessage:
                 "Benvingut a Acme inc: la vostra porta d'accés a una planificació i organització perfecta.",
             loginAccountTitle: "Inicieu sessió al vostre compte",
@@ -70,7 +70,7 @@ const { I18nProvider, useI18n } = i18nBuilder
             confirmPasswordPlaceholder: "Confirmeu la vostra contrasenya"
         },
         cs: {
-            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks",
+            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks GmbH",
             welcomeMessage:
                 "Vítejte v Acme inc – vaší bráně k bezproblémovému plánování a organizaci.",
             loginAccountTitle: "Přihlaste se ke svému účtu",
@@ -89,7 +89,7 @@ const { I18nProvider, useI18n } = i18nBuilder
             confirmPasswordPlaceholder: "Potvrďte své heslo"
         },
         da: {
-            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks",
+            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks GmbH",
             welcomeMessage:
                 "Velkommen til Acme inc - din gateway til problemfri planlægning og organisering.",
             loginAccountTitle: "Log ind på din konto",
@@ -128,7 +128,7 @@ const { I18nProvider, useI18n } = i18nBuilder
             confirmPasswordPlaceholder: "Passwort bestätigen"
         },
         el: {
-            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks",
+            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks GmbH",
             welcomeMessage:
                 "Καλώς ήρθατε στην Acme inc - Η πύλη σας για απρόσκοπτο σχεδιασμό και οργάνωση.",
             loginAccountTitle: "Σύνδεση στον λογαριασμό σας",
@@ -147,7 +147,7 @@ const { I18nProvider, useI18n } = i18nBuilder
             confirmPasswordPlaceholder: "Επιβεβαιώστε τον κωδικό πρόσβασής σας"
         },
         es: {
-            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks",
+            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks GmbH",
             welcomeMessage:
                 "Bienvenido a Acme inc: su puerta de entrada a una planificación y organización perfectas.",
             loginAccountTitle: "Inicie sesión en su cuenta",
@@ -167,7 +167,7 @@ const { I18nProvider, useI18n } = i18nBuilder
             confirmPasswordPlaceholder: "Confirme su contraseña"
         },
         fa: {
-            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks",
+            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks GmbH",
             welcomeMessage:
                 "به Acme inc خوش آمدید - دروازه شما برای برنامه‌ریزی و سازماندهی بدون نقص.",
             loginAccountTitle: "وارد حساب کاربری خود شوید",
@@ -186,7 +186,7 @@ const { I18nProvider, useI18n } = i18nBuilder
             confirmPasswordPlaceholder: "رمز عبور خود را تأیید کنید"
         },
         fi: {
-            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks",
+            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks GmbH",
             welcomeMessage:
                 "Tervetuloa Acme inc:iin – porttisi saumattomaan suunnitteluun ja organisointiin.",
             loginAccountTitle: "Kirjaudu tilillesi",
@@ -206,7 +206,7 @@ const { I18nProvider, useI18n } = i18nBuilder
             confirmPasswordPlaceholder: "Vahvista salasanasi"
         },
         fr: {
-            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks",
+            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks GmbH",
             welcomeMessage:
                 "Bienvenue sur Acme inc - Votre passerelle vers une planification et une organisation sans faille.",
             loginAccountTitle: "Connectez-vous à votre compte",
@@ -226,7 +226,7 @@ const { I18nProvider, useI18n } = i18nBuilder
             confirmPasswordPlaceholder: "Confirmez votre mot de passe"
         },
         hu: {
-            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks",
+            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks GmbH",
             welcomeMessage:
                 "Üdvözöljük az Acme inc-nél – Az Ön kapuja a zökkenőmentes tervezéshez és szervezéshez.",
             loginAccountTitle: "Jelentkezzen be fiókjába",
@@ -245,7 +245,7 @@ const { I18nProvider, useI18n } = i18nBuilder
             confirmPasswordPlaceholder: "Erősítse meg a jelszavát"
         },
         it: {
-            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks",
+            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks GmbH",
             welcomeMessage:
                 "Benvenuti in Acme inc - Il vostro portale per una pianificazione e un'organizzazione senza interruzioni.",
             loginAccountTitle: "Accedi al tuo account",
@@ -264,7 +264,7 @@ const { I18nProvider, useI18n } = i18nBuilder
             confirmPasswordPlaceholder: "Conferma la tua password"
         },
         ja: {
-            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks",
+            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks GmbH",
             welcomeMessage:
                 "Acme inc へようこそ - シームレスな計画と組織化へのゲートウェイ。",
             loginAccountTitle: "アカウントにログイン",
@@ -284,7 +284,7 @@ const { I18nProvider, useI18n } = i18nBuilder
             confirmPasswordPlaceholder: "パスワードを確認してください"
         },
         ka: {
-            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks",
+            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks GmbH",
             welcomeMessage:
                 "მოგესალმებით Acme inc-ში - თქვენი კარიბჭე უწყვეტი დაგეგმვისა და ორგანიზებისთვის.",
             loginAccountTitle: "შედით თქვენს ანგარიშში",
@@ -303,7 +303,7 @@ const { I18nProvider, useI18n } = i18nBuilder
             confirmPasswordPlaceholder: "დაადასტურეთ თქვენი პაროლი"
         },
         lt: {
-            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks",
+            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks GmbH",
             welcomeMessage:
                 "Sveiki atvykę į „Acme inc“ – jūsų vartai į sklandų planavimą ir organizavimą.",
             loginAccountTitle: "Prisijunkite prie savo paskyros",
@@ -322,7 +322,7 @@ const { I18nProvider, useI18n } = i18nBuilder
             confirmPasswordPlaceholder: "Patvirtinkite savo slaptažodį"
         },
         lv: {
-            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks",
+            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks GmbH",
             welcomeMessage:
                 "Laipni lūdzam Acme inc — jūsu vārti uz nevainojamu plānošanu un organizēšanu.",
             loginAccountTitle: "Pieteikties savā kontā",
@@ -341,7 +341,7 @@ const { I18nProvider, useI18n } = i18nBuilder
             confirmPasswordPlaceholder: "Apstipriniet savu paroli"
         },
         nl: {
-            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks",
+            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks GmbH",
             welcomeMessage:
                 "Welkom bij Acme inc - Uw toegangspoort tot naadloze planning en organisatie.",
             loginAccountTitle: "Inloggen op uw account",
@@ -360,7 +360,7 @@ const { I18nProvider, useI18n } = i18nBuilder
             confirmPasswordPlaceholder: "Bevestig uw wachtwoord"
         },
         no: {
-            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks",
+            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks GmbH",
             welcomeMessage:
                 "Velkommen til Acme inc - din inngangsport til sømløs planlegging og organisering.",
             loginAccountTitle: "Logg inn på kontoen din",
@@ -379,7 +379,7 @@ const { I18nProvider, useI18n } = i18nBuilder
             confirmPasswordPlaceholder: "Bekreft passordet ditt"
         },
         pl: {
-            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks",
+            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks GmbH",
             welcomeMessage:
                 "Witamy w Acme inc — Twojej bramie do bezproblemowego planowania i organizacji.",
             loginAccountTitle: "Zaloguj się do swojego konta",
@@ -398,7 +398,7 @@ const { I18nProvider, useI18n } = i18nBuilder
             confirmPasswordPlaceholder: "Potwierdź swoje hasło"
         },
         pt: {
-            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks",
+            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks GmbH",
             welcomeMessage:
                 "Bem-vindo à Acme inc - Sua porta de entrada para planejamento e organização integrados.",
             loginAccountTitle: "Faça login na sua conta",
@@ -417,7 +417,7 @@ const { I18nProvider, useI18n } = i18nBuilder
             confirmPasswordPlaceholder: "Confirme a sua palavra-passe"
         },
         "pt-BR": {
-            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks",
+            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks GmbH",
             welcomeMessage:
                 "Bem-vindo à Acme inc - Seu portal para planejamento e organização contínuos.",
             loginAccountTitle: "Entre na sua conta",
@@ -436,7 +436,7 @@ const { I18nProvider, useI18n } = i18nBuilder
             confirmPasswordPlaceholder: "Confirme sua senha"
         },
         ru: {
-            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks",
+            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks GmbH",
             welcomeMessage:
                 "Добро пожаловать в Acme inc — ваш путь к эффективному планированию и организации.",
             loginAccountTitle: "Войти в свой аккаунт",
@@ -455,7 +455,7 @@ const { I18nProvider, useI18n } = i18nBuilder
             confirmPasswordPlaceholder: "Подтвердите пароль"
         },
         sk: {
-            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks",
+            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks GmbH",
             welcomeMessage:
                 "Vitajte v Acme inc – vašej bráne k bezproblémovému plánovaniu a organizácii.",
             loginAccountTitle: "Prihláste sa do svojho účtu",
@@ -474,7 +474,7 @@ const { I18nProvider, useI18n } = i18nBuilder
             confirmPasswordPlaceholder: "Potvrďte svoje heslo"
         },
         sv: {
-            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks",
+            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks GmbH",
             welcomeMessage:
                 "Välkommen till Acme inc - din inkörsport till sömlös planering och organisering.",
             loginAccountTitle: "Logga in på ditt konto",
@@ -493,7 +493,7 @@ const { I18nProvider, useI18n } = i18nBuilder
             confirmPasswordPlaceholder: "Bekräfta ditt lösenord"
         },
         th: {
-            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks",
+            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks GmbH",
             welcomeMessage:
                 "ยินดีต้อนรับสู่ Acme inc - ประตูสู่การวางแผนและจัดระเบียบที่ราบรื่น",
             loginAccountTitle: "เข้าสู่ระบบบัญชีของคุณ",
@@ -512,7 +512,7 @@ const { I18nProvider, useI18n } = i18nBuilder
             confirmPasswordPlaceholder: "ยืนยันรหัสผ่านของคุณ"
         },
         tr: {
-            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks",
+            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks GmbH",
             welcomeMessage:
                 "Acme inc'e hoş geldiniz - Kusursuz planlama ve organizasyona giden kapınız.",
             loginAccountTitle: "Hesabınıza giriş yapın",
@@ -531,7 +531,7 @@ const { I18nProvider, useI18n } = i18nBuilder
             confirmPasswordPlaceholder: "Şifrenizi onaylayın"
         },
         uk: {
-            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks",
+            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks GmbH",
             welcomeMessage:
                 "Ласкаво просимо до Acme inc — вашого шлюзу до безперебійного планування та організації.",
             loginAccountTitle: "Увійдіть у свій акаунт",
@@ -550,7 +550,7 @@ const { I18nProvider, useI18n } = i18nBuilder
             confirmPasswordPlaceholder: "Підтвердьте пароль"
         },
         "zh-CN": {
-            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks",
+            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks GmbH",
             welcomeMessage: "欢迎来到 Acme inc - 开启无缝规划与组织的门户。",
             loginAccountTitle: "登录您的账号",
             registerTitle: "注册新账号",
@@ -568,7 +568,7 @@ const { I18nProvider, useI18n } = i18nBuilder
             confirmPasswordPlaceholder: "请确认密码"
         },
         "zh-TW": {
-            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks",
+            "theme.cloudpunks.login.description": "Custom cool theme used by Cloudpunks GmbH",
             welcomeMessage: "歡迎來到 Acme inc - 開啟無縫規劃與組織的門戶。",
             loginAccountTitle: "登入您的帳號",
             registerTitle: "註冊新帳號",

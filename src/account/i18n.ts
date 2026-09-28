@@ -7,10 +7,10 @@ const { useI18n, ofTypeI18n } = i18nBuilder
     .withThemeName<ThemeName>()
     .withCustomTranslations({
         en: {
-            "theme.cloudpunks.account.description": "Custom cool theme used by Cloudpunks"
+            "theme.cloudpunks.account.description": "Custom cool theme used by Cloudpunks GmbH"
         },
         de: {
-            "theme.cloudpunks.account.description": "Custom cool theme used by Cloudpunks"
+            "theme.cloudpunks.account.description": "Custom cool theme used by Cloudpunks GmbH"
         }
     })
     .build();
