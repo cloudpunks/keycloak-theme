@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.1.0](https://github.com/cloudpunks/keycloak-theme/compare/v1.0.1...v1.1.0) (2026-09-28)
+
+### Features
+
+* replace oras with real image and include jar for release ([0fe4356](https://github.com/cloudpunks/keycloak-theme/commit/0fe43567e42eb902924a2f5bf64813102e1833a8))
+
+### Bugfixes
+
+* **patch:** pin busybox docker tag to fd7dc98 ([#13](https://github.com/cloudpunks/keycloak-theme/issues/13)) ([70cd750](https://github.com/cloudpunks/keycloak-theme/commit/70cd75025362c707d3fecfa39e96572469670c1f))
+
 ## [1.0.1](https://github.com/cloudpunks/keycloak-theme/compare/v1.0.0...v1.0.1) (2026-09-28)
 
 ### Bugfixes
