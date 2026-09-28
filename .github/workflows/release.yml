@@ -52,6 +52,12 @@ jobs:
             @semantic-release/github \
             conventional-changelog-conventionalcommits@9
 
+      - name: Install deps
+        run: npm ci
+
+      - name: Build theme
+        run: npm run build-keycloak
+
       - name: Run releaser
         env:
           GITHUB_TOKEN: ${{ steps.token.outputs.token }}
