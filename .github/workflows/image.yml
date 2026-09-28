@@ -35,11 +35,12 @@ jobs:
       - name: Build theme
         run: npm run build-keycloak
 
-      - name: Rename file
-        run: |
-          mv \
-            dist_keycloak/keycloak-theme-for-kc-26.2-and-above.jar \
-            keycloak-theme.jar
+      - name: Ghcr login
+        uses: docker/login-action@v4
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Compute version
         id: version
@@ -51,15 +52,45 @@ jobs:
           fi
 
       - name: Push artifact
-        uses: 1k-off/action-oras-push@v1
-        with:
-          registry: ghcr.io
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
-          repository: cloudpunks/keycloak-theme
-          tag: ${{ steps.version.outputs.value }}
-          keep-root-dir: true
-          files: |
-            keycloak-theme.jar
+        run: |
+          TMP="$(mktemp -d)"
+
+          LAYER_TAR="${TMP}/layer.tar"
+          LAYER_TAR_GZ="${LAYER_TAR}.gz"
+          CONFIG_JSON="${TMP}/config.json"
+
+          cp dist_keycloak/keycloak-theme-for-kc-26.2-and-above.jar "${TMP}/keycloak-theme.jar"
+          tar -cf "${LAYER_TAR}" -C "${TMP}" keycloak-theme.jar
+
+          DIFF_ID="sha256:$(shasum -a 256 "${LAYER_TAR}" | cut -d' ' -f1)"
+          echo "  diff_id: ${DIFF_ID}"
+
+          gzip -9 -c "${LAYER_TAR}" >"${LAYER_TAR_GZ}"
+
+          cat >"${CONFIG_JSON}" <<EOF
+          {
+            "architecture": "amd64",
+            "os": "linux",
+            "rootfs": {
+              "type": "layers",
+              "diff_ids": ["${DIFF_ID}"]
+            }
+          }
+          EOF
+
+          ORAS=$(mise which oras || which oras)
+          cd "${TMP}"
+
+          "${ORAS}" push ghcr.io/cloudpunks/keycloak-theme:${{ steps.version.outputs.value }} \
+            --annotation "org.opencontainers.image.title=Theme" \
+            --annotation "org.opencontainers.image.description=Custom theme for Keycloak" \
+            --annotation "org.opencontainers.image.vendor=cloudpunks GmbH <ops@cloudpunks.de>" \
+            --annotation "org.opencontainers.image.licenses=Apache-2.0" \
+            --annotation "org.opencontainers.image.url=${{ github.server_url }}/${{ github.repository }}" \
+            --annotation "org.opencontainers.image.source=${{ github.server_url }}/${{ github.repository }}" \
+            --annotation "org.opencontainers.image.revision=${{ github.sha }}" \
+            --annotation "org.opencontainers.image.created=$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
+            --config "$(basename ${CONFIG_JSON}):application/vnd.oci.image.config.v1+json" \
+            "$(basename ${LAYER_TAR_GZ}):application/vnd.oci.image.layer.v1.tar+gzip"
 
 ...
