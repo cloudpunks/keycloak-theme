@@ -1,7 +1,7 @@
 #:schema https://mise.jdx.dev/schema/mise.json
 
 [tools]
-betterleaks = "1.8.1"
+betterleaks = "1.9.0"
 java = "temurin-26"
 maven = "3.9.16"
 node = "24"
