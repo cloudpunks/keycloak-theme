@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.4.0](https://github.com/cloudpunks/keycloak-theme/compare/v1.3.0...v1.4.0) (2026-10-12)
+
+### Features
+
+* **minor:** update dependency eslint to v10.12.0 ([#27](https://github.com/cloudpunks/keycloak-theme/issues/27)) ([956291f](https://github.com/cloudpunks/keycloak-theme/commit/956291fbba18557ed5deb91091751a171958c30f))
+* **minor:** update dependency lucide-react to v1.50.0 ([#25](https://github.com/cloudpunks/keycloak-theme/issues/25)) ([b4266c9](https://github.com/cloudpunks/keycloak-theme/commit/b4266c9761adb9b6067a70dea8c7473990addb29))
+* **minor:** update dependency lucide-react to v1.51.0 ([#28](https://github.com/cloudpunks/keycloak-theme/issues/28)) ([e1c5325](https://github.com/cloudpunks/keycloak-theme/commit/e1c5325e6ecb1e5bf2c66cf2729289af1914f4bb))
+* **minor:** update dependency lucide-react to v1.52.0 ([#29](https://github.com/cloudpunks/keycloak-theme/issues/29)) ([96eaf02](https://github.com/cloudpunks/keycloak-theme/commit/96eaf0235c1fe8891cebdcf6a1466e9370ae05cf))
+* **minor:** update dependency lucide-react to v1.53.0 ([#34](https://github.com/cloudpunks/keycloak-theme/issues/34)) ([96adb95](https://github.com/cloudpunks/keycloak-theme/commit/96adb95a7ae586f1c1cd64fd5c1a997d5bab3032))
+
+### Bugfixes
+
+* **patch:** update dependency @vitejs/plugin-react to v6.1.2 ([#31](https://github.com/cloudpunks/keycloak-theme/issues/31)) ([6fd2130](https://github.com/cloudpunks/keycloak-theme/commit/6fd2130ca2a156121a7f3d9643b4f944cac6e147))
+* **patch:** update dependency keycloakify to v11.16.1 ([#26](https://github.com/cloudpunks/keycloak-theme/issues/26)) ([da888bc](https://github.com/cloudpunks/keycloak-theme/commit/da888bcf870311934c8d7225fdc7dc33cda97d21))
+* **patch:** update dependency prek to v0.5.5 ([#30](https://github.com/cloudpunks/keycloak-theme/issues/30)) ([a77b9de](https://github.com/cloudpunks/keycloak-theme/commit/a77b9de73a5873b50f333b92e19451a48a6e49e2))
+* **patch:** update dependency typescript-eslint to v8.71.1 ([#32](https://github.com/cloudpunks/keycloak-theme/issues/32)) ([3efbc6f](https://github.com/cloudpunks/keycloak-theme/commit/3efbc6fc9b40d5b301b091ed5ce06791dbeb9f48))
+* **patch:** update dependency vite to v8.3.3 ([#33](https://github.com/cloudpunks/keycloak-theme/issues/33)) ([7153a33](https://github.com/cloudpunks/keycloak-theme/commit/7153a33e6d0b5a308a5777a7e3514c98a4d2a95c))
+* **patch:** update dependency vite to v8.3.4 ([#35](https://github.com/cloudpunks/keycloak-theme/issues/35)) ([b3d30a7](https://github.com/cloudpunks/keycloak-theme/commit/b3d30a7f98f9c9300ae601b1bbd40c1839a7d0cd))
+
 ## [1.3.0](https://github.com/cloudpunks/keycloak-theme/compare/v1.2.0...v1.3.0) (2026-10-05)
 
 ### Features
