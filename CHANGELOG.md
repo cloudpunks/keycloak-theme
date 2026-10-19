@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.5.0](https://github.com/cloudpunks/keycloak-theme/compare/v1.4.0...v1.5.0) (2026-10-19)
+
+### Features
+
+* **minor:** update dependency lucide-react to v1.54.0 ([#37](https://github.com/cloudpunks/keycloak-theme/issues/37)) ([8d331e3](https://github.com/cloudpunks/keycloak-theme/commit/8d331e35042a3df9ec8597ca110da1d87565c550))
+* **minor:** update dependency lucide-react to v1.55.0 ([#39](https://github.com/cloudpunks/keycloak-theme/issues/39)) ([b46c063](https://github.com/cloudpunks/keycloak-theme/commit/b46c0633cb6bee9abf63f9b72319a7cb2aa0ae66))
+* **minor:** update dependency lucide-react to v1.56.0 ([#44](https://github.com/cloudpunks/keycloak-theme/issues/44)) ([b9d1af9](https://github.com/cloudpunks/keycloak-theme/commit/b9d1af98b5def07d615e181ff66b6ed0443e82df))
+* **minor:** update dependency lucide-react to v1.57.0 ([#45](https://github.com/cloudpunks/keycloak-theme/issues/45)) ([7d133ff](https://github.com/cloudpunks/keycloak-theme/commit/7d133ff4e7fd5e144203ffccde9e98d4b7c2bd82))
+
+### Bugfixes
+
+* **patch:** update dependency @fontsource-variable/source-sans-3 to v5.3.1 ([#41](https://github.com/cloudpunks/keycloak-theme/issues/41)) ([43a5061](https://github.com/cloudpunks/keycloak-theme/commit/43a5061d145d5ad103dfa776141ccb7d895ea604))
+* **patch:** update dependency @types/node to v24.19.2 ([#38](https://github.com/cloudpunks/keycloak-theme/issues/38)) ([37e2c25](https://github.com/cloudpunks/keycloak-theme/commit/37e2c25bfeaf267671f56588a071aba697f29946))
+* **patch:** update dependency keycloakify to v11.16.3 ([#47](https://github.com/cloudpunks/keycloak-theme/issues/47)) ([405f2ad](https://github.com/cloudpunks/keycloak-theme/commit/405f2ad745189b6ad485a995881069b1519fea47))
+* **patch:** update dependency npm-check-updates to v23.1.1 ([#40](https://github.com/cloudpunks/keycloak-theme/issues/40)) ([503bb85](https://github.com/cloudpunks/keycloak-theme/commit/503bb85d46b0c0d5c3c6693310efacec749af9a3))
+* **patch:** update dependency typescript-eslint to v8.71.2 ([#42](https://github.com/cloudpunks/keycloak-theme/issues/42)) ([97ab22a](https://github.com/cloudpunks/keycloak-theme/commit/97ab22a4641e3064ef327a70174722e94183dca2))
+* **patch:** update react monorepo to v19.3.1 ([#46](https://github.com/cloudpunks/keycloak-theme/issues/46)) ([1537229](https://github.com/cloudpunks/keycloak-theme/commit/1537229377d36d68556a67df7537b6be5613adbe))
+* **patch:** update storybook monorepo to v10.6.2 ([#43](https://github.com/cloudpunks/keycloak-theme/issues/43)) ([06745d7](https://github.com/cloudpunks/keycloak-theme/commit/06745d77f5b266cbd7080247b408c1af2f7cf239))
+
 ## [1.4.0](https://github.com/cloudpunks/keycloak-theme/compare/v1.3.0...v1.4.0) (2026-10-12)
 
 ### Features
