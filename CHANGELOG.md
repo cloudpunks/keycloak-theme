@@ -1,5 +1,23 @@
 # Changelog
 
+## [2.0.0](https://github.com/cloudpunks/keycloak-theme/compare/v1.6.0...v2.0.0) (2026-11-02)
+
+### Features
+
+* **major:** update dependency @types/node to v26 ([#61](https://github.com/cloudpunks/keycloak-theme/issues/61)) ([123bc8e](https://github.com/cloudpunks/keycloak-theme/commit/123bc8e6f9fd9c5b8364aa5d96efc683fabc6057))
+* **major:** update node.js to v26 ([#66](https://github.com/cloudpunks/keycloak-theme/issues/66)) ([b8c9cd4](https://github.com/cloudpunks/keycloak-theme/commit/b8c9cd4b272e3fd13bdaee97048fcbfdedc40f74))
+* **minor:** update dependency lucide-react to v1.62.0 ([#64](https://github.com/cloudpunks/keycloak-theme/issues/64)) ([5aac489](https://github.com/cloudpunks/keycloak-theme/commit/5aac489dbdc5ac7067c6017d5f6d3cda6a6ef3c2))
+* **minor:** update dependency lucide-react to v1.63.0 ([#67](https://github.com/cloudpunks/keycloak-theme/issues/67)) ([7063a70](https://github.com/cloudpunks/keycloak-theme/commit/7063a70c27d72be45735c584109d1d61c2c2b39e))
+* **minor:** update dependency lucide-react to v1.64.0 ([#70](https://github.com/cloudpunks/keycloak-theme/issues/70)) ([c21951b](https://github.com/cloudpunks/keycloak-theme/commit/c21951bbdf33fb3f7c28f566610b88d62aac129a))
+
+### Bugfixes
+
+* **patch:** update busybox:1.38.0 docker digest to a46257e ([#69](https://github.com/cloudpunks/keycloak-theme/issues/69)) ([9ca3bcb](https://github.com/cloudpunks/keycloak-theme/commit/9ca3bcbd77e41818df03a4891a691960451cceb5))
+* **patch:** update dependency @types/node to v26.6.6 ([#68](https://github.com/cloudpunks/keycloak-theme/issues/68)) ([165d497](https://github.com/cloudpunks/keycloak-theme/commit/165d497d5033de55a6ebfda7cdb8040431bfcd49))
+* **patch:** update dependency typescript-eslint to v8.72.1 ([#63](https://github.com/cloudpunks/keycloak-theme/issues/63)) ([f5984ee](https://github.com/cloudpunks/keycloak-theme/commit/f5984ee88fb95bad263df1194c151e4a1b27a810))
+* **patch:** update storybook monorepo to v10.6.4 ([#62](https://github.com/cloudpunks/keycloak-theme/issues/62)) ([986a4da](https://github.com/cloudpunks/keycloak-theme/commit/986a4da8e54ce972343a7aa5430b6bdc4d75c152))
+* **patch:** update storybook monorepo to v10.6.5 ([#65](https://github.com/cloudpunks/keycloak-theme/issues/65)) ([77430b7](https://github.com/cloudpunks/keycloak-theme/commit/77430b7b4f25664f8bdb636c89b64035b4b66172))
+
 ## [1.6.0](https://github.com/cloudpunks/keycloak-theme/compare/v1.5.0...v1.6.0) (2026-10-26)
 
 ### Features
