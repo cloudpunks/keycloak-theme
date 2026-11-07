@@ -27,7 +27,7 @@
     "@fontsource-variable/playfair-display": "^5.2.8",
     "@fontsource-variable/source-sans-3": "^5.2.9",
     "@keycloakify/email-native": "~260007.0.0",
-    "@keycloakify/login-ui": "~250004.7.0",
+    "@keycloakify/login-ui": "~250004.8.0",
     "@oussemasahbeni/keycloakify-login-shadcn": "^250004.0.24",
     "@tailwindcss/vite": "^4.3.0",
     "class-variance-authority": "^0.7.1",
